@@ -460,6 +460,11 @@ img {
   align-items: baseline;
 }
 
+.footer-soc {
+  display: flex;
+  align-items: baseline;
+}
+
 .f-logo {
   margin-right: 120px;
 }
