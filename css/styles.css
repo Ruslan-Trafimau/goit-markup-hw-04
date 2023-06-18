@@ -105,6 +105,7 @@ img {
   align-items: center;
   gap: 40px;
   padding: 24px 0;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav {
@@ -141,6 +142,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-links:hover {
@@ -199,6 +201,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-left: 164px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover {
@@ -233,6 +236,7 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--gray-color);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-portfolio:hover {
