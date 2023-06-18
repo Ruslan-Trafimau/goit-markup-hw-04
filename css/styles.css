@@ -494,6 +494,31 @@ img {
   justify-content: center;
 }
 
-.f-icon:hover:focus {
+.f-icon:hover {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #31d0aa;
+}
+
+.f-icon:focus {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #31d0aa;
+}
+
+.f-link {
+}
+
+.f-soc-logo {
+  fill: var(--dark-white-color);
 }
