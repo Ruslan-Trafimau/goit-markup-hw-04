@@ -461,7 +461,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .our-team-link:focus {
@@ -472,7 +472,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .our-team-p {
@@ -480,6 +480,21 @@ img {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+}
+
+.customers {
+  padding: 120px 0;
+}
+
+.customers-h_two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--second-color);
+  margin-bottom: 72px;
 }
 
 .section-portf {
