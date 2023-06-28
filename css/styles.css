@@ -517,6 +517,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--dark-gray-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover {
@@ -527,8 +529,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--dark-gray-color);
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-link:focus {
@@ -539,12 +541,16 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--dark-gray-color);
   border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-logo {
   fill: currentColor;
+}
+
+.customers-logo:hover {
+  fill: #404bbf;
 }
 
 .section-portf {
