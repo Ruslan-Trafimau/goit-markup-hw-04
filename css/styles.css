@@ -108,7 +108,7 @@ img {
   align-items: center;
   gap: 40px;
   padding: 24px 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1));
   position: relative;
   color: var(--dark-blue-color);
 }
@@ -123,16 +123,6 @@ img {
   display: flex;
 }
 
-.header-pass::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
 .header-menu:hover {
   font-weight: 500;
   font-size: 16px;
@@ -144,7 +134,6 @@ img {
   align-items: center;
   gap: 40px;
   padding: 24px 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--dark-blue-color);
 }
 
@@ -159,7 +148,6 @@ img {
   align-items: center;
   gap: 40px;
   padding: 24px 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--dark-blue-color);
 }
 
@@ -189,7 +177,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-links:hover {
